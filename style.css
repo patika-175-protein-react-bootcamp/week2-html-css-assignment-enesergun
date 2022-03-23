@@ -30,9 +30,46 @@ body {
     position: relative;
     width: 50%;
     height: auto;
-    max-height: 139px;
+    max-height: 131px;
     display: block;
-    max-width: 458px;
-    margin: 0 auto;
+    max-width: 449px;
+    margin: 0px auto;
     transform: translate(0px, -200px);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.character-rectangle {
+    width: 181px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-line {
+    width: 90%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 25px;
+}
+
+.character-image {
+    width: 90%;
+    position: relative;
+    bottom: 17px;
+}
+
+.character-image img {
+    width: 100%;
+    
 }
